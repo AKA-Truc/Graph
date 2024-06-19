@@ -1,0 +1,15 @@
+﻿1.Sử dụng các cấu trúc dữ liệu đã học, viết chương trình cho phép nhập 
+và lưu trữ thông tin về một đồ thị cho trước trên máy tính bằng 
+các phương pháp ma trận liền kề, danh sách liền kề và danh sách cạnh.
+2.Kiểm tra xem đồ thị đã cho là đồ thị vô hướng hay có hướng.
+3.Liệt kê số bậc của tất cả các đỉnh trong trường hợp đồ thị 
+vô hướng, hay bán bậc ra và bán bậc vào trong trường hợp đồ thị có hướng.
+4.Tạo file dữ liệu và demo với các đồ thị ở Chương 1, slide 23.
+Yêu cầu: 
+
+	Sử dụng ngôn ngữ lập trình C++. Dữ liệu đầu vào đọc từ file txt với cấu trúc như sau: 
+
+	- dòng đầu tiên lưu giá trị nguyên n, là số đỉnh của đồ thị;
+
+	- các dòng tiếp theo, mỗi dòng sẽ lưu chỉ số của đỉnh đang xét và các đỉnh kề với nó; 
+	các đỉnh được xét theo thứ tự tăng dần.

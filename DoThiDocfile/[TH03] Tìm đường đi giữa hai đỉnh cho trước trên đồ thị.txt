@@ -1,0 +1,7 @@
+﻿Sử dụng chương trình đã viết ở bài tập trước, đọc dữ liệu đầu vào từ một đồ thị cho trước (đọc từ file). Sau đó thực hiện các công việc sau:
+
+Nhập vào đỉnh xuất phát s và đỉnh kết thúc t, kiểm tra xem có đường đi từ s đến t hay không;
+Nếu có hãy xuất ra đường đi.
+Yêu cầu:
+
+- Ở mỗi bài tập, lần lượt thực hiện duyệt đồ thị bằng hai cách: BFS hoặc DFS.
