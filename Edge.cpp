@@ -1,7 +1,7 @@
 // edge.cpp
 #include "Edge.h"
 #include <algorithm>
-
+using namespace std;
 Edge::Edge(int s, int d, int w)
 {
     src = s;
@@ -35,10 +35,10 @@ void union_sets(int u, int v, std::vector<int>& parent, std::vector<int>& rank)
     }
 }
 
-std::vector<Edge> kruskalMST(std::vector<Edge>& edges, int V)
+vector<Edge> kruskalMST(std::vector<Edge>& edges, int V)
 {
-    std::sort(edges.begin(), edges.end(), Edge::compareEdge); // Sắp xếp các cạnh theo trọng số tăng dần
-    std::vector<int> parent(V + 1), rank(V + 1, 0);
+    sort(edges.begin(), edges.end(), Edge::compareEdge); // Sắp xếp các cạnh theo trọng số tăng dần
+    vector<int> parent(V + 1), rank(V + 1, 0);
     for (int i = 0; i <= V; ++i)
         parent[i] = i;
     std::vector<Edge> mst;
