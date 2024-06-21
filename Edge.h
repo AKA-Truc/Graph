@@ -24,8 +24,8 @@ public:
     static bool compareEdge(const Edge& a, const Edge& b);
 
     friend int find(int u, std::vector<int>& parent);
-    friend void union_sets(int u, int v, std::vector<int>& parent, std::vector<int>& rank);
-    friend std::vector<Edge> kruskalMST(std::vector<Edge>& edges, int V);
+    friend void union_sets(int u, int v, vector<int>& parent, vector<int>& rank);
+    friend vector<Edge> kruskalMST(vector<Edge>& edges, int V);
 };
 
 #endif // EDGE_H
